@@ -13,17 +13,22 @@
 
 ---
 
-###  Highlighted Research Projects
+###  Highlighted Research & Publications
 
 - **Controllable Flow Matching for Protein Ensembles** *(First Author)*
   - *Status: Under Second-Round Review at AAAI (Double-Blind Review)*
   - Investigated secondary-structure steering in AlphaFlow-based ensemble generators; identified the proxy gap where ~70% raw structural gains dissipate after downstream physical relaxation.
   - *Anonymized manuscript available upon private request.*
 
-- **[Molecular dynamics descriptors for 1,079 post-translationally modified protein systems](https://www.biorxiv.org/content/10.64898/2026.08.23.746532v1)** *(Co-Author)*
-  - *Preprint on bioRxiv* | [🌐 Interactive Platform](https://kkkniengliu.github.io/dyna-mo-ptm-web/)
-  - Part of the **ProteinFlux** project with Chi Ying Lab and Shipston Lab.
-  - Engineered the end-to-end DynaMo-phos pipeline across 580 phosphorylated systems & 1,224 MD replicas with PTM-aware atom14 tokenization and Invariant Point Attention (IPA).
+- **[ProteinFlux: PTM-Conditioned Protein Dynamics](https://www.biorxiv.org/content/10.64898/2026.05.06.721822v1)** *(Third Author)*
+  - *Preprint on bioRxiv (May 2026)* | Collaboration with Chi Ying Lab & Shipston Lab
+  - PTM-conditioned SE(3) flow-matching architecture for generative prediction of protein conformational dynamics.
+  - Contributed to model development, Invariant Point Attention (IPA) integration, flow-matching training, and multi-GPU distributed inference.
+
+- **[Molecular dynamics descriptors for 1,079 post-translationally modified protein systems](https://www.biorxiv.org/content/10.64898/2026.08.23.746532v1)** *(Fourth Author)*
+  - *Preprint on bioRxiv (Aug 2026)* | [🌐 Interactive Dataset Platform](https://kkkniengliu.github.io/dyna-mo-ptm-web/)
+  - Large-scale DynaMo-PTM benchmark dataset covering 1,079 AlphaFold 3-seeded systems and 32.37 μs aggregate MD sampling.
+  - Engineered the end-to-end DynaMo-phos processing pipeline, PTM-aware atom14 tokenization, RMSD quality control, and feature extraction.
 
 - **[scRNA-foundation-benchmark](https://github.com/madongge/scRNA-foundation-benchmark)**
   - Systematic benchmark of single-cell foundation models (scGPT, scANVI, CellTypist) vs. traditional KNN baseline on 10x Genomics PBMC datasets.
