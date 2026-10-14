@@ -15,10 +15,10 @@
 
 ### 🚀 Highlighted Research Projects
 
-- **Secondary-Structure Control in Flow-Matching Protein Ensembles** *(First Author)*
-  - *Status: Under Double-Blind Review at AAAI 2027*
-  - Investigated controllable generation in AlphaFlow-based models; identified the nested proxy gap where ~70% raw helix gain is lost after energy minimization.
-  - *Anonymized draft and experimental code available upon private request.*
+- **Controllable Flow Matching for Protein Ensembles** *(First Author)*
+  - *Status: Under Second-Round Review at AAAI (Double-Blind Review)*
+  - Investigated secondary-structure steering in AlphaFlow-based ensemble generators; identified the proxy gap where ~70% raw structural gains dissipate after downstream physical relaxation.
+  - *Anonymized manuscript available upon private request.*
 
 - **[Molecular dynamics descriptors for 1,079 post-translationally modified protein systems](https://www.biorxiv.org/content/10.64898/2026.08.23.746532v1)** *(Co-Author)*
   - *Preprint on bioRxiv* | [🌐 Interactive Platform](https://kkkniengliu.github.io/dyna-mo-ptm-web/)
