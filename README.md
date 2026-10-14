@@ -6,14 +6,14 @@
 
 ---
 
-### 🔬 Research Interests
+###  Research Interests
 - **Generative AI for Biology**: Flow Matching, SE(3) Equivariant Networks, Diffusion Models
 - **Structural Bioinformatics**: Protein Dynamics, Post-Translational Modifications (PTMs), Biomolecular Ensembles
 - **Physical Relaxation & Evaluation**: Bridging generative proxy objectives with real-world force-field stability
 
 ---
 
-### 🚀 Highlighted Research Projects
+###  Highlighted Research Projects
 
 - **Controllable Flow Matching for Protein Ensembles** *(First Author)*
   - *Status: Under Second-Round Review at AAAI (Double-Blind Review)*
@@ -33,5 +33,5 @@
 
 ---
 
-### 🛠️ Technical Stack
+###  Technical Stack
 `Python` • `PyTorch` • `AlphaFold3` • `AlphaFlow` • `PyMOL` • `MDAnalysis` • `ESM2` • `Scanpy` • `Git/Linux`
