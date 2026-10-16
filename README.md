@@ -29,6 +29,15 @@
   - *Preprint on bioRxiv (Aug 2026)* | [🌐 Interactive Dataset Platform](https://kkkniengliu.github.io/dyna-mo-ptm-web/)
   - Large-scale DynaMo-PTM benchmark dataset covering 1,079 AlphaFold 3-seeded systems and 32.37 μs aggregate MD sampling.
   - Engineered the end-to-end DynaMo-phos processing pipeline, PTM-aware atom14 tokenization, RMSD quality control, and feature extraction.
+ 
+- **[*C. elegans* Dual-Channel Fluorescence Time-Lapse Stabilizer](https://github.com/madongge/celegans-frame-stabilizer#readme)**
+*Summer Research @ Lingfeng Meng Lab, ZJU–UoE (ZJE) Institute (Jun – Aug 2024)*
+- **Wet-Lab & Bioimaging**: Cultured and maintained *C. elegans* strains; performed dual-channel spinning-disk confocal time-lapse fluorescence microscopy (`CSU GFP / mCherry`, 16-bit multi-frame TIFF stacks) to image neuronal soma and axonal puncta.
+- **Sub-Pixel ECC Stabilization Pipeline**: Built an automated Python/OpenCV image-stabilization tool ([`frame_stabilizer`](https://github.com/madongge/celegans-frame-stabilizer#readme)) combining Gaussian local-contrast enhancement, Otsu-guided ROI segmentation, and masked Enhanced Correlation Coefficient (`cv2.findTransformECC`) sub-pixel alignment with temporal trajectory smoothing.
+- **Cross-Channel Registration & Lab Deployment**: Propagated learned affine warp matrices from Channel 1 to Channel 2 to lock dual-channel neuronal fluorescence in place across 400-frame recordings, and packaged the tool as a standalone `.exe` for lab workflows.
+[![C. elegans Stabilization Demo](https://raw.githubusercontent.com/madongge/celegans-frame-stabilizer/main/assets/demo_comparison.gif)](https://github.com/madongge/celegans-frame-stabilizer#readme)
+>  **[Click here or on the animation above to view the full documentation & algorithmic pipeline →](https://github.com/madongge/celegans-frame-stabilizer#readme)**
+
 
 - **[scRNA-foundation-benchmark](https://github.com/madongge/scRNA-foundation-benchmark)**
   - Systematic benchmark of single-cell foundation models (scGPT, scANVI, CellTypist) vs. traditional KNN baseline on 10x Genomics PBMC datasets.
